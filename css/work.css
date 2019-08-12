@@ -119,11 +119,12 @@ a:hover{
 
 .about-work{
     padding:0 20%;
-    padding-bottom:30%;
+    padding-bottom:20%;
 }
 
 .work-name{
-    font-size: 50px;
+    font-size: 42px;
+    padding-bottom:10px;
 }
 
 .top{
@@ -143,8 +144,9 @@ img{
 }
 
 .right{
-    font-size: 20px;
+    font-size: 14px;
     margin-top: 0;
+    line-height: 28px;
 }
 
 ul{
@@ -152,7 +154,7 @@ ul{
     padding: 0;
 }
 li{
-    font-size: 24px;
+    font-size: 20px;
     padding-bottom: 5px;
 }
 
@@ -160,13 +162,14 @@ li{
 
 .bottom{
     margin: 5% 0;
-    font-size: 20px;
+    font-size: 14px;
+    line-height: 28px;
     text-align: justify;
     text-justify: inter-ideograph;
 }
 
 .right-img {
-    height: 30vh;
+    height: 35vh;
     width: auto;
 	float: right;
     margin-left: 4%;
@@ -174,7 +177,7 @@ li{
 }
 
 .left-img{
-    height: 30vh;
+    height: 35vh;
     width: auto;
     float: left;
     margin-right: 4%;
