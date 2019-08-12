@@ -1,0 +1,221 @@
+body{
+    background:#fffff0;
+    font-family: "游ゴシック体", YuGothic, "游ゴシック Medium", "Yu Gothic Medium", "游ゴシック", "Yu Gothic", sans-serif;
+    margin: 0;
+    position: relative;
+    color:#71a0a5;
+}
+
+
+
+.menu{
+    width:60px; 
+    height:40px; 
+    top: 30px; 
+    right:30px; 
+    position:fixed; 
+    z-index:9999; 
+    transition: 0.5s ;
+}
+.menu:hover{
+    opacity: 0.5;
+}
+.menu1{
+    top:0px; 
+} 
+.menu2{
+    top:20px; 
+} 
+.menu3{
+    top:40px; 
+}
+
+
+.menu1,.menu2,.menu3{  
+    position:absolute; 
+    width:60px; 
+    height:5px;      
+    background-color: #71a0a5;
+    border-radius: 2.5px;
+    filter: drop-shadow(0 0 2px #4e4e4e);    
+    -webkit-transition: all 0.5s ease-out;
+}
+
+.menuclick1{ 
+    top:15px; 
+    -webkit-transform: rotate(225deg);
+    background-color: #fffff0;
+}
+.menuclick2{ 
+    background-color:rgba(255,255,255,0);  
+}
+.menuclick3{ 
+    top:15px; 
+   -webkit-transform: rotate(-225deg);
+   background-color: #fffff0;
+}
+
+.menu-box{
+    text-align: right;
+    width: 100%; 
+    height: 124px; 
+    position: fixed;
+    right:1%;
+}
+
+.menu-block{
+    background-image: url("../images/menu.png");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: right top;
+    filter: drop-shadow(0 0 5px #4e4e4e);
+    position: fixed;
+    top: 0;
+    right: 0;
+    color: #71a0a5;
+    height: 100vh;
+    width: 100vw;
+    z-index: 10;
+    display: none;
+}
+.menu-block ul{
+    padding: 60px;
+    list-style: none;
+}
+.menu-block ul li{
+    line-height: 180%;
+}
+
+.menu-block ul li a{
+    color: #fffff0; 
+    font-size: 56px; 
+    line-height: 200%;
+} 
+
+a:-webkit-any-link {
+    text-decoration:none;
+    transition: 0.5s ;
+} 
+
+a:hover{
+    opacity: 0.5;
+}
+
+
+
+
+.title{
+    font-family: guapa, sans-serif;
+    font-style: normal;
+    font-weight: bold;
+}
+
+.work-title{
+    font-size: 100px;
+    margin: 0;
+    padding: 4%;
+    text-align: center;
+}
+
+.about-work{
+    padding:0 20%;
+    padding-bottom:30%;
+}
+
+.work-name{
+    font-size: 50px;
+}
+
+.top{
+    margin:auto;
+    display: flex;
+    flex-wrap: wrap;
+    padding-bottom: 50px;
+}
+img{
+    width: 28vw;
+    height: auto;
+}
+
+.left{
+    float: left;
+	margin-right: 2%;
+}
+
+.right{
+    font-size: 20px;
+    margin-top: 0;
+}
+
+ul{
+    list-style: none;
+    padding: 0;
+}
+li{
+    font-size: 24px;
+    padding-bottom: 5px;
+}
+
+
+
+.bottom{
+    margin: 5% 0;
+    font-size: 20px;
+    text-align: justify;
+    text-justify: inter-ideograph;
+}
+
+.right-img {
+    height: 30vh;
+    width: auto;
+	float: right;
+    margin-left: 4%;
+    margin-bottom: 3%;
+}
+
+.left-img{
+    height: 30vh;
+    width: auto;
+    float: left;
+    margin-right: 4%;
+    margin-bottom: 3%;
+
+}
+
+.block{
+    display: block;
+    padding-bottom: 50px;
+}
+
+.block:after {
+    content: "";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden;
+}
+
+p{
+    margin: 8px;
+}
+
+
+
+
+
+.pansy{
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    filter: drop-shadow(0 0 4px #4e4e4e);
+}
+.viola{
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    filter: drop-shadow(0 0 4px #4e4e4e);
+}
+
+
+
+
