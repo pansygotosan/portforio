@@ -131,7 +131,7 @@ a:hover{
     margin:auto;
     display: flex;
     flex-wrap: wrap;
-    padding-bottom: 50px;
+    padding-bottom: 2%;
 }
 img{
     width: 28vw;
@@ -140,7 +140,7 @@ img{
 
 .left{
     float: left;
-	margin-right: 2%;
+	margin-right: 3%;
 }
 
 .right{
@@ -161,7 +161,7 @@ li{
 
 
 .bottom{
-    margin: 5% 0;
+    margin: 2% 0;
     font-size: 14px;
     line-height: 28px;
     text-align: justify;
@@ -172,22 +172,20 @@ li{
     height: 35vh;
     width: auto;
 	float: right;
-    margin-left: 4%;
-    margin-bottom: 3%;
+    margin-left: 2%;
 }
 
 .left-img{
     height: 35vh;
     width: auto;
     float: left;
-    margin-right: 4%;
-    margin-bottom: 3%;
+    margin-right: 2%;
 
 }
 
 .block{
     display: block;
-    padding-bottom: 50px;
+    padding-bottom: 2%;
 }
 
 .block:after {
