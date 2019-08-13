@@ -154,6 +154,116 @@ a:hover{
 
 }
 
+.portfolio{
+    width: 50vw;
+    margin: 0;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translateY(-50%) translateX(-50%);
+}
+
+.st0{
+    fill:none;stroke:#6F9A9F;stroke-width:11;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;
+    stroke-dasharray:  4000; /* 破線の間隔 */
+    stroke-dashoffset: 4000; /* 破線の開始位置 */
+    animation: DASH 6s ease-in-out alternate 0s forwards; /* アニメーション */
+    -webkit-animation: DASH 6s ease-in-out alternate 0s forwards;
+}
+
+.st1{
+    fill:none;stroke:#6F9A9F;stroke-width:11;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;
+    stroke-dasharray:  4000;
+    stroke-dashoffset: 4000;
+    animation: DASH 6s ease-in-out alternate 0s forwards;
+    animation-delay: 0.1s;
+    -webkit-animation: DASH 6s ease-in-out alternate 0s forwards;
+    -webkit-animation-delay: 0.1s;
+}
+
+.st2{
+    fill:none;stroke:#6F9A9F;stroke-width:11;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;
+    stroke-dasharray:  4000;
+    stroke-dashoffset: 4000;
+    animation: DASH 6s ease-in-out alternate 0s forwards;
+    animation-delay: 0.2s;
+    -webkit-animation: DASH 6s ease-in-out alternate 0s forwards;
+    -webkit-animation-delay: 0.2s;
+}
+.st3{
+    fill:none;stroke:#6F9A9F;stroke-width:11;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;
+    stroke-dasharray:  4000;
+    stroke-dashoffset: 4000;
+    animation: DASH 6s ease-in-out alternate 0s forwards;
+    animation-delay: 0.3s;
+    -webkit-animation: DASH 6s ease-in-out alternate 0s forwards;
+    -webkit-animation-delay: 0.3s;
+}
+.st4{
+    fill:none;stroke:#6F9A9F;stroke-width:11;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;
+    stroke-dasharray:  4000;
+    stroke-dashoffset: 4000;
+    animation: DASH 6s ease-in-out alternate 0s forwards;
+    animation-delay: 0.4s;
+    -webkit-animation: DASH 6s ease-in-out alternate 0s forwards;
+    -webkit-animation-delay: 0.4s;
+}
+.st5{
+    fill:none;stroke:#6F9A9F;stroke-width:11;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;
+    stroke-dasharray:  4000;
+    stroke-dashoffset: 4000;
+    animation: DASH 6s ease-in-out alternate 0s forwards;
+    animation-delay: 0.5s;
+    -webkit-animation: DASH 6s ease-in-out alternate 0s forwards;
+    -webkit-animation-delay: 0.5s;
+}
+.st6{
+    fill:none;stroke:#6F9A9F;stroke-width:11;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;
+    stroke-dasharray:  4000;
+    stroke-dashoffset: 4000;
+    animation: DASH 6s ease-in-out alternate 0s forwards;
+    animation-delay: 0.6s;
+    -webkit-animation: DASH 6s ease-in-out alternate 0s forwards;
+    -webkit-animation-delay: 0.6s;
+}
+.st7{
+    fill:none;stroke:#6F9A9F;stroke-width:11;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;
+    stroke-dasharray:  4000;
+    stroke-dashoffset: 4000;
+    animation: DASH 6s ease-in-out alternate 0s forwards;
+    animation-delay: 0.7s;
+    -webkit-animation: DASH 6s ease-in-out alternate 0s forwards;
+    -webkit-animation-delay: 0.7s;
+}
+.st8{
+    fill:none;stroke:#6F9A9F;stroke-width:11;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;
+    stroke-dasharray:  4000;
+    stroke-dashoffset: 4000;
+    animation: DASH 6s ease-in-out alternate 0s forwards;
+    animation-delay: 0.8s;
+    -webkit-animation: DASH 6s ease-in-out alternate 0s forwards;
+    -webkit-animation-delay: 0.8s;
+}
+.st9{
+    fill:none;stroke:#6F9A9F;stroke-width:11;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;
+    stroke-dasharray:  4000;
+    stroke-dashoffset: 4000;
+    animation: DASH 6s ease-in-out alternate 0s forwards;
+    animation-delay: 0.9s;
+    -webkit-animation: DASH 6s ease-in-out alternate 0s forwards;
+    -webkit-animation-delay: 0.9s;
+}
+
+@keyframes DASH {
+    0% {
+        stroke-dashoffset: 4000;
+        }
+    100% {
+        stroke-dashoffset: 0;
+        }
+    }
+
+
 
 .page-title{
     color: #71a0a5;
@@ -776,7 +886,7 @@ a:hover{
 }
 
 .works:hover img{
-    filter: saturate(70%) brightness(50%) drop-shadow(0 0 2px #4e4e4e);
+    filter: saturate(70%) brightness(50%) ;
 }
 
 .works:hover p{
