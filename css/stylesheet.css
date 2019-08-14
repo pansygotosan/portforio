@@ -337,6 +337,7 @@ a:hover{
 }
 .flying-butterfly1:hover{
     animation-play-state: paused;
+    cursor: grab;
 }
 
 .flying-butterfly2{
@@ -351,6 +352,7 @@ a:hover{
 }
 .flying-butterfly2:hover{
     animation-play-state: paused;
+    cursor: grab;
 }
 
 .flying-butterfly3{
@@ -365,6 +367,7 @@ a:hover{
 }
 .flying-butterfly3:hover{
     animation-play-state: paused;
+    cursor: grab;
 }
 
 .flying-butterfly4{
@@ -379,6 +382,7 @@ a:hover{
 }
 .flying-butterfly4:hover{
     animation-play-state: paused;
+    cursor: grab;
 }
 
 @keyframes flying1{
