@@ -638,9 +638,10 @@ a:hover{
     background: #71a0a5;
     width: 100vw; 
     /* height: 200vh; */
+    position: relative;
     color: #fffff0;
     margin: 0;
-    padding-bottom:10%
+    padding-bottom:10%;
 }
 
 .pansy{
