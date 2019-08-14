@@ -118,7 +118,7 @@ a:hover{
 }
 
 .about-work{
-    padding:0 21%;
+    padding:0 24%;
     padding-bottom:20%;
 }
 
@@ -218,5 +218,315 @@ p{
 }
 
 
+.flying-butterfly1{
+    width: 50px;
+    height: auto;
+    position: absolute;
+    top: 5%;
+    left:5%;
+    opacity: 0;
+    filter: drop-shadow(0 0 3px #4e4e4e);
+    z-index:99; 
+    animation:flying1 50s infinite;
+}
+.flying-butterfly1:hover{
+    animation-play-state: paused;
+}
 
+.flying-butterfly2{
+    width: 50px;
+    height: auto;
+    position: absolute;
+    bottom: 5%;
+    left:5%;
+    opacity: 0;
+    filter: drop-shadow(0 0 3px #4e4e4e);
+    z-index:99; 
+    animation:flying2 50s infinite;
+    animation-delay: 1s;
+}
+.flying-butterfly2:hover{
+    animation-play-state: paused;
+}
+
+.flying-butterfly3{
+    width: 50px;
+    height: auto;
+    position: absolute;
+    top: 5%;
+    right:5%;
+    opacity: 0;
+    filter: drop-shadow(0 0 3px #4e4e4e);
+    z-index:99; 
+    animation:flying3 50s infinite;
+    animation-delay: 2s;
+}
+.flying-butterfly3:hover{
+    animation-play-state: paused;
+}
+
+.flying-butterfly4{
+    width: 50px;
+    height: auto;
+    position: absolute;
+    bottom: 5%;
+    right:5%;
+    opacity: 0;
+    filter: drop-shadow(0 0 3px #4e4e4e);
+    z-index:99; 
+    animation:flying4 50s infinite;
+    animation-delay: 3s;
+}
+.flying-butterfly4:hover{
+    animation-play-state: paused;
+}
+
+@keyframes flying1{
+    0%{
+        top: 5%;
+        left:5%;
+    }
+    5%{
+        opacity: 1;
+    }
+    9%{
+        top: 10%;
+        left:15%;
+        transform: rotate(-30deg);
+    }
+    21%{
+        top:20%;
+        left:5%;
+        transform: rotate(30deg);
+    }
+    29%{
+        top: 30%;
+        left:15%;
+        transform: rotate(30deg);
+    }
+    41%{
+        top: 40%;
+        left:5%;
+        transform: rotate(-30deg);
+    }
+    52%{
+        top: 50%;
+        left:15%;
+        transform: rotate(30deg);
+    }
+    59%{
+        top: 60%;
+        left:5%;
+        transform: rotate(-30deg);
+    }
+    68%{
+        top: 70%;
+        left:15%;
+        transform: rotate(30deg);
+    }
+    80%{
+        top: 80%;
+        left:5%;
+        transform: rotate(-30deg);
+    }
+    92%{
+        top: 90%;
+        left:15%;
+        transform: rotate(30deg);
+    }
+    95%{
+        opacity: 1;
+    }
+    100%{
+        top: 100%;
+        left:5%;
+        opacity: 0;
+        transform: rotate(30deg);
+    }
+}
+@keyframes flying2{
+    0%{
+        bottom: 5%;
+        left:5%;
+        
+    }
+    5%{
+        opacity: 1;
+    }
+    11%{
+        bottom: 10%;
+        left:15%;
+        transform: rotate(30deg);
+    }
+    22%{
+        bottom: 20%;
+        left:5%;
+        transform: rotate(30deg);
+    }
+    29%{
+        bottom: 30%;
+        left:15%;
+        transform: rotate(-30deg);
+    }
+    38%{
+        bottom: 40%;
+        left:5%;
+        transform: rotate(-30deg);
+    }
+    51%{
+        bottom: 50%;
+        left:15%;
+        transform: rotate(30deg);
+    }
+    59%{
+        bottom: 60%;
+        left:5%;
+        transform: rotate(30deg);
+    }
+    71%{
+        bottom: 70%;
+        left:15%;
+        transform: rotate(-30deg);
+    }
+    82%{
+        bottom: 80%;
+        left:5%;
+        transform: rotate(-30deg);
+    }
+    90%{
+        bottom: 90%;
+        left:15%;
+        transform: rotate(30deg);
+    }
+    95%{
+        opacity: 1;
+    }
+    100%{
+        bottom: 100%;
+        left:15%;
+        opacity: 0;
+        transform: rotate(30deg);
+    }
+}
+@keyframes flying3{
+    0%{
+        top: 5%;
+        right:5%;
+    }
+    5%{
+        opacity: 1;
+    }
+    12%{
+        top: 10%;
+        right:15%;
+        transform: rotate(-30deg);
+    }
+    21%{
+        top:20%;
+        right:5%;
+        transform: rotate(30deg);
+    }
+    29%{
+        top: 30%;
+        right:15%;
+        transform: rotate(30deg);
+    }
+    41%{
+        top: 40%;
+        right:5%;
+        transform: rotate(-30deg);
+    }
+    49%{
+        top: 50%;
+        right:15%;
+        transform: rotate(30deg);
+    }
+    61%{
+        top: 60%;
+        right:5%;
+        transform: rotate(-30deg);
+    }
+    72%{
+        top: 70%;
+        right:15%;
+        transform: rotate(30deg);
+    }
+    79%{
+        top: 80%;
+        right:5%;
+        transform: rotate(-30deg);
+    }
+    88%{
+        top: 90%;
+        right:15%;
+        transform: rotate(30deg);
+    }
+    95%{
+        opacity: 1;
+    }
+    100%{
+        top: 100%;
+        right:5%;
+        opacity: 0;
+        transform: rotate(30deg);
+    }
+}
+@keyframes flying4{
+    0%{
+        bottom: 5%;
+        right:5%;
+    }
+    5%{
+        opacity: 1;
+    }
+    9%{
+        bottom: 10%;
+        right:15%;
+    }
+    21%{
+        bottom: 20%;
+        right:5%;
+        transform: rotate(30deg);
+    }
+    29%{
+        bottom: 30%;
+        right:15%;
+    }
+    41%{
+        bottom: 40%;
+        right:5%;
+        transform: rotate(-30deg);
+    }
+    51%{
+        bottom: 50%;
+        right:15%;
+    }
+    59%{
+        bottom: 60%;
+        right:5%;
+        transform: rotate(30deg);
+    }
+    71%{
+        bottom: 70%;
+        right:15%;
+    }
+    79%{
+        bottom: 80%;
+        right:5%;
+        transform: rotate(-30deg);
+    }
+    92%{
+        bottom: 90%;
+        right:15%;
+    }
+    95%{
+        opacity: 1;
+    }
+    100%{
+        bottom: 100%;
+        right:5%;
+        opacity: 0;
+        transform: rotate(30deg);
+    }
+}
 

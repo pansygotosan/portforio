@@ -83,7 +83,7 @@ body{
     color: #71a0a5;
     height: 100vh;
     width: 100vw;
-    z-index: 10;
+    z-index: 999;
     display: none;
 }
 
@@ -331,36 +331,56 @@ a:hover{
     left:25vw;
     opacity: 0;
     filter: drop-shadow(0 0 3px #4e4e4e);
+    z-index:99; 
     animation:flying1 50s infinite;
     animation-delay: 8s;
 }
+.flying-butterfly1:hover{
+    animation-play-state: paused;
+}
+
 .flying-butterfly2{
     position: absolute;
     top: 25vh;
     left:95vw;
     opacity: 0;
     filter: drop-shadow(0 0 3px #4e4e4e);
+    z-index:99; 
     animation:flying2 50s infinite;
     animation-delay: 11s;
 }
+.flying-butterfly2:hover{
+    animation-play-state: paused;
+}
+
 .flying-butterfly3{
     position: absolute;
     top: 60vh;
     left:25vw;
     opacity: 0;
     filter: drop-shadow(0 0 3px #4e4e4e);
+    z-index:99; 
     animation:flying3 50s infinite;
     animation-delay: 23s;
 }
+.flying-butterfly3:hover{
+    animation-play-state: paused;
+}
+
 .flying-butterfly4{
     position: absolute;
     top: 25vh;
     left:95vw;
     opacity: 0;
     filter: drop-shadow(0 0 3px #4e4e4e);
+    z-index:99; 
     animation:flying4 50s infinite;
     animation-delay: 25s;
 }
+.flying-butterfly4:hover{
+    animation-play-state: paused;
+}
+
 @keyframes flying1{
     0%{
         top: 60vh;
@@ -1174,14 +1194,14 @@ a:hover{
 }
 
 .work-box{
-    width: 70%;
+    width: 60%;
     margin: 3% auto;
     display: flex;
     flex-wrap: wrap;
 }
 
 .works{
-    width: 30vw;
+    width: 25vw;
     margin: 1% auto;
     filter: drop-shadow(0 0 4px #4e4e4e);
     
@@ -1202,7 +1222,7 @@ a:hover{
     top: 50%;
     -webkit-transform: translate(0, -50%);
     transform: translate(0, -50%);
-    font-size: 30px;
+    font-size: 24px;
     color: #fffff0;
     text-decoration:none;
     /* display: none; */
@@ -1217,5 +1237,7 @@ a:hover{
     /* display: inline; */
     opacity: 1.0;
 }
+
+
 
 

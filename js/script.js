@@ -1,6 +1,6 @@
 $(function(){
     $(window).scroll(function(){
-        if($(window).scrollTop() > $('.home').offset().top &&　$(window).scrollTop() < $('#about').offset().top){
+        if($(window).scrollTop() > $('.home').offset().top &&　$(window).scrollTop() < $('#about').offset().top-$(window).height()*3/10){
             $(".menu1").removeClass("menuscroll1");
             $(".menu2").removeClass("menuscroll2");
             $(".menu3").removeClass("menuscroll3");
