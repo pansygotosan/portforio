@@ -1234,12 +1234,13 @@ a:hover{
 }
 
 .works:hover img{
-    filter: saturate(70%) brightness(50%) ;
+    filter: saturate(70%) brightness(30%) ;
 }
 
 .works:hover p{
     /* display: inline; */
     opacity: 1.0;
+    color: #fffff0;
 }
 
 
